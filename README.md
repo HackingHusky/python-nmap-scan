@@ -63,11 +63,32 @@ Download from https://nmap.org/download.html and ensure nmap.exe is on your PATH
 pip install -r requirements.txt
 #or
 pip install python-nmap
-
+```
 or in kali
 
-pipx install python-nmap
+Step 1 — Make sure venv support is installed
 ```
+sudo apt isntall python3-venc
+```
+Step 2 — Create a virtual environment
+```
+python3 -m venv nmap-env
+```
+Step 3 — Activate it
+```
+source nmap-env/bin/activate
+```
+Your prompt will change to something like:
+```
+(nmap-env)kali@kali~$:
+```
+Step 4 — Install python‑nmap normally
+```
+pip install pytthon-nmap
+```
+This time it will install with no errors, because you’re inside an isolated environment.
+
+
 
 ▶️ Usage
 
