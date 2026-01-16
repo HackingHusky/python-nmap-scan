@@ -84,7 +84,7 @@ Your prompt will change to something like:
 ```
 Step 4 — Install python‑nmap normally
 ```
-pip install pytthon-nmap
+pip install python-nmap
 ```
 This time it will install with no errors, because you’re inside an isolated environment.
 
