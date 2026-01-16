@@ -63,6 +63,10 @@ Download from https://nmap.org/download.html and ensure nmap.exe is on your PATH
 pip install -r requirements.txt
 #or
 pip install python-nmap
+
+or in kali
+
+pipx install python-nmap
 ```
 
 ▶️ Usage
