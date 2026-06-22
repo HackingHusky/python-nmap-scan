@@ -1,4 +1,6 @@
 # Network Asset Discovery and Reconnaissance Utility
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/be592b5b-9441-4f54-ab81-30925a278ad9" />
+
 
 An asynchronous, command-line Python abstraction layer built on top of the Nmap Security Scanner. This utility programmatically orchestrates targeted port scans, subnet discovery, service fingerprinting, and operating system detection to provide structured infrastructure auditing reports.
 
